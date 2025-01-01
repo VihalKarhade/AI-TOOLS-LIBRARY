@@ -12,16 +12,6 @@ h2 {
 } */
 
 
-/* Apply the background image */
-body {
-    background-image: url('pexels-eberhardgross-2098427.jpg'); /* Replace with the correct image path */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: white; /* Adjust text color for better contrast */
-    font-family: Arial, sans-serif;
-}
-
 
 body {
     font-family: 'Arial', sans-serif;
@@ -84,5 +74,23 @@ footer a {
 
 footer a:hover {
     color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+/* Apply the background image */
+body {
+    background-image: url('pexels-eberhardgross-2098427.jpg'); /* Replace with the correct image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; /* Adjust text color for better contrast */
+    font-family: Arial, sans-serif;
 }
 
