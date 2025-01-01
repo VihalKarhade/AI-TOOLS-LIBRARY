@@ -32,6 +32,10 @@ h2 {
     padding-bottom: 10px;
 }
 
+h6 {
+    color: #444;
+}
+
 .container {
     display: grid; /* Use grid layout */
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive columns */
