@@ -1,0 +1,96 @@
+/* h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin-top: 0;
+} */
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    background-color: #007BFF;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+}
+
+h6 {
+    color: #444;
+}
+
+.container {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between columns */
+}
+
+.section {
+    background-color: #fff; /* White background for sections */
+    padding: 15px; /* Padding inside sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007BFF; /* Link color */
+}
+
+a:hover {
+    color: #0056b3; /* Darker shade on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+
+
+/* Footer Section */
+footer i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+footer a {
+    color: #007BFF;
+}
+
+footer a:hover {
+    color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+/* Apply the background image */
+body {
+    background-image: url('pexels-eberhardgross-2098427.jpg'); /* Replace with the correct image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; /* Adjust text color for better contrast */
+    font-family: Arial, sans-serif;
+}
+
